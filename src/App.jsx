@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import * as XLSX from 'xlsx'
 import accountsFileUrl from './assets/accounts.xlsx?url'
 
-const BASE_URL = 'https://r6w1t4doia.com/xxapi/buyitoken/waitpayerpaymentslip'
+const BASE_URL = 'https://api.h5r1xc.xyz/xxapi/buyitoken/waitpayerpaymentslip'
 const REQUEST_LIMIT = 200
 const TOKEN_STORAGE_KEY = 'tivrapay-indiatoken'
 

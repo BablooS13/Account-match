@@ -67,10 +67,11 @@ async function fetchWithRetry(url, options, maxRetries = 3) {
 async function fetchTivraPayData(indiaToken) {
   const options = {
     method: 'GET',
-    headers: {
-      Accept: 'application/json',
-      indiatoken: indiaToken,
-    },
+headers: {
+  Accept: 'application/json',
+  indiatoken: indiaToken,
+  'x-rs-cfg-tivpayreqgate': 'A7K9X2M8Q4P1Z'
+},
   }
 
   let page = 1

@@ -3,7 +3,7 @@ import * as XLSX from 'xlsx'
 import accountsFileUrl from './assets/accounts.xlsx?url'
 
 const BASE_URL = 'https://api.h5r1xc.xyz/xxapi/buyitoken/waitpayerpaymentslip'
-const REQUEST_LIMIT = 200
+const REQUEST_LIMIT = 300
 const TOKEN_STORAGE_KEY = 'tivrapay-indiatoken'
 
 const OUTPUT_HEADERS = [
